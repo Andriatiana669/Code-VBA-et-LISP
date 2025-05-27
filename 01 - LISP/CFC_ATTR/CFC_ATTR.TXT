@@ -1,0 +1,21 @@
+CFC_ATTR
+
+Ce programme permet de modifier le facteur de compression
+de tous les attributs d'un même bloc, sans décomposer
+ce dernier. Il met ensuite à jour soit uniquement le bloc
+sélectionné, soit tous les blocs du même nom.
+La sélection se fait en cliquant sur un attribut.
+
+Chargement:	(LOAD "/lisp/CFC_ATTR")
+
+Lancement:	CFC_ATTR
+		Cliquez sur un attribut: Sélectionnez un attribut d'un bloc
+		Modification Totale ou Unique T/U: Entrez T ou U
+						  
+	T modifiera tous les blocs du même nom
+	U modifiera que le bloc dont l'attribut a été sélectionné
+
+		Nouveau facteur d'extension ou de compression du texte: Entrez une valeur
+		 
+
+
